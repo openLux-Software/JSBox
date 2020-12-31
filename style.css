@@ -19,4 +19,10 @@
 
 body {
     background-color: rgb(10, 10, 10);
+    animation: marup 1.25s;
+}
+
+@keyframes marup {
+    from{margin-top: 200px; opacity: 0;}
+    to{margin-top: 0; opacity: 1;}
 }
