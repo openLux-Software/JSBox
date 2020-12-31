@@ -1,8 +1,22 @@
 #js_input {
     width: 30vw;
     height: 30vh;
+
+    font-family: sans-serif;
+    font-size: 10pt;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 .runbtn {
-    width: 30.35vw;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: rgb(43, 56, 238);
+    color: white;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
 }
